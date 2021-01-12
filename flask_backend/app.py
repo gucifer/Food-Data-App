@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import http.client
 import json
 from Recipe import Recipe
+from Article import Article
 
 app = Flask(__name__)
 headers = {
@@ -18,6 +19,7 @@ def api_docs():
 @app.route('/api/search', methods=['POST'])
 def search_recipe():
     search = request.get_json()
+
     conn = http.client.HTTPSConnection("tasty.p.rapidapi.com")
     conn.request("GET", "/recipes/list?from=0&size=10&q=" +
                  search['search'], headers=headers)
@@ -59,4 +61,18 @@ def feed():
     data = res.read()
     data = json.loads(data.decode("utf-8"))
 
-    return
+    responce = dict()
+    responce['item'] = []
+    for i in data['results']:
+        if 'item' in i.keys():
+            if 'recipes' in i['item'].keys():
+                responce['item'].append(Article(i['item']))
+            else:
+                responce['item'].append(Recipe(i['item']))
+        else:
+            for article in i['items']:
+                if 'recipes' in article.keys():
+                    responce['item'].append(Article(article))
+                else:
+                    responce['item'].append(Recipe(article))
+    return jsonify(responce)
