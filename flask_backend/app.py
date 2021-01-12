@@ -18,7 +18,7 @@ def api_docs():
     return 'API Documentation goes here!'
 
 
-@app.route('/api/search', methods=['POST'])
+@app.route('/apip1/search', methods=['POST'])
 def search_recipe():
     search = request.get_json()
 
@@ -38,7 +38,7 @@ def search_recipe():
     return jsonify(responce)
 
 
-@app.route('/api/detail', methods=['POST'])
+@app.route('/apip1/detail', methods=['POST'])
 def recipe_detail():
     req = request.get_json()
 
@@ -52,7 +52,7 @@ def recipe_detail():
     return jsonify(responce)
 
 
-@app.route('/api/feed', methods=['POST'])
+@app.route('/apip1/feed', methods=['POST'])
 def feed():
     conn.request(
         "GET", "/feeds/list?size=20&timezone=%2B0700&vegetarian=false&from=0", headers=headers)
