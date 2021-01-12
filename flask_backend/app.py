@@ -5,6 +5,8 @@ from Recipe import Recipe
 from Article import Article
 
 app = Flask(__name__)
+
+conn = http.client.HTTPSConnection("tasty.p.rapidapi.com")
 headers = {
     'x-rapidapi-key': "36f705baa8msh44335f3142fd8fdp166372jsn51f840150135",
     'x-rapidapi-host': "tasty.p.rapidapi.com"
@@ -20,7 +22,6 @@ def api_docs():
 def search_recipe():
     search = request.get_json()
 
-    conn = http.client.HTTPSConnection("tasty.p.rapidapi.com")
     conn.request("GET", "/recipes/list?from=0&size=10&q=" +
                  search['search'], headers=headers)
     res = conn.getresponse()
@@ -41,7 +42,6 @@ def search_recipe():
 def recipe_detail():
     req = request.get_json()
 
-    conn = http.client.HTTPSConnection("tasty.p.rapidapi.com")
     conn.request("GET", "/recipes/detail?id=" +
                  str(req['id']), headers=headers)
     res = conn.getresponse()
@@ -54,7 +54,6 @@ def recipe_detail():
 
 @app.route('/api/feed', methods=['POST'])
 def feed():
-    conn = http.client.HTTPSConnection("tasty.p.rapidapi.com")
     conn.request(
         "GET", "/feeds/list?size=20&timezone=%2B0700&vegetarian=false&from=0", headers=headers)
     res = conn.getresponse()
