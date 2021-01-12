@@ -1,4 +1,6 @@
 from Recipe import Recipe
+
+
 def Article(article):
     responce = dict()
     responce['name'] = article['name']
@@ -7,7 +9,7 @@ def Article(article):
     responce['recipes'] = list()
     responce['tags'] = []
     for j in article['tags']:
-        responce['tags'].append(j['display_name'])
+        responce['tags'].append({'name': j['display_name'], 'type': j['type']})
     for recipe in article['recipes']:
         responce['recipes'].append(Recipe(recipe))
     return responce

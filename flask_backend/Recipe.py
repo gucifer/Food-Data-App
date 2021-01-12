@@ -9,7 +9,7 @@ def Recipe(data):
     responce['nutrition'] = data['nutrition']
     responce['tags'] = []
     for i in data['tags']:
-        responce['tags'].append({'name': i['name'], 'type': i['type']})
+        responce['tags'].append({'name': i['display_name'], 'type': i['type']})
     responce['instructions'] = []
     for i in data['instructions']:
         responce['instructions'].append(i['display_text'])
