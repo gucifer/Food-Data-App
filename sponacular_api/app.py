@@ -59,7 +59,7 @@ def search_recipe():
 
 @app.route('/api/search/advanced')
 def advanced_search():
-    return
+    return NotImplementedError
 
 
 @app.route('/api/recipe/detail', methods=['POST'])
