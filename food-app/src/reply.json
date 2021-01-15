@@ -1,0 +1,65 @@
+{
+    "recipes": [
+      {
+        "id": 655726,
+        "image": "https://spoonacular.com/recipeImages/655726-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Perfect Chicken Soup"
+      },
+      {
+        "id": 638746,
+        "image": "https://spoonacular.com/recipeImages/638746-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Chipotle Chicken Soup"
+      },
+      {
+        "id": 649430,
+        "image": "https://spoonacular.com/recipeImages/649430-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Leek and Chicken Soup"
+      },
+      {
+        "id": 632356,
+        "image": "https://spoonacular.com/recipeImages/632356-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Ang Chow Chicken Soup With Preserved Mustard Greens"
+      },
+      {
+        "id": 640518,
+        "image": "https://spoonacular.com/recipeImages/640518-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Cream Corn & Chicken Soup"
+      },
+      {
+        "id": 639657,
+        "image": "https://spoonacular.com/recipeImages/639657-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Clear & Quick Chicken Soup"
+      },
+      {
+        "id": 649985,
+        "image": "https://spoonacular.com/recipeImages/649985-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Light and Chunky Chicken Soup"
+      },
+      {
+        "id": 1095995,
+        "image": "https://spoonacular.com/recipeImages/1095995-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Slow Cooker Mexican Chicken Soup"
+      },
+      {
+        "id": 715392,
+        "image": "https://spoonacular.com/recipeImages/715392-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Chicken Tortilla Soup (Slow Cooker)"
+      },
+      {
+        "id": 1096226,
+        "image": "https://spoonacular.com/recipeImages/1096226-312x231.jpg",
+        "imageType": "jpg",
+        "title": "Chicken Tortilla Soup with Bone Broth"
+      }
+    ],
+    "totalResults": 86
+  }

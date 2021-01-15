@@ -10,6 +10,7 @@ app = Flask(__name__)
 conn = http.client.HTTPSConnection("api.spoonacular.com")
 
 
+
 def dict_check(key, d):
     if key in d.keys():
         return True
