@@ -1,0 +1,118 @@
+{
+    "image": "https://spoonacular.com/recipeImages/324694-556x370.jpeg",
+    "ingredients": [
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/white-powder.jpg",
+        "name": "baking powder",
+        "orig": "1 teaspoon baking powder"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/white-powder.jpg",
+        "name": "baking soda",
+        "orig": "1/2 teaspoon baking soda"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/bourbon.png",
+        "name": "bourbon",
+        "orig": "1/2 cup good quality bourbon, or more to taste"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/buttermilk.jpg",
+        "name": "buttermilk",
+        "orig": "1 1/2 cups, plus 3 tablespoons buttermilk"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/powdered-sugar.jpg",
+        "name": "confectioners' sugar",
+        "orig": "Confectioners' sugar, for garnish"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+        "name": "eggs",
+        "orig": "2 large eggs"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png",
+        "name": "flour",
+        "orig": "1 1/2 cups all-purpose flour"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/sugar-in-bowl.png",
+        "name": "granulated sugar",
+        "orig": "2 tablespoons granulated sugar"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg",
+        "name": "kosher salt",
+        "orig": "Kosher salt, to taste"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/light-brown-sugar.jpg",
+        "name": "light brown sugar",
+        "orig": "1 tablespoon light brown sugar"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/maple-syrup.png",
+        "name": "maple syrup",
+        "orig": "Pure maple syrup, warmed"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/molasses.jpg",
+        "name": "molasses",
+        "orig": "3 tablespoons molasses"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/pecans.jpg",
+        "name": "pecans",
+        "orig": "1/2 cup finely chopped toasted pecans"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/pecans.jpg",
+        "name": "pecans",
+        "orig": "Coarsely chopped toasted pecans, for garnish, optional"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg",
+        "name": "sea salt",
+        "orig": "3/4 teaspoon fine sea salt"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/sugar-in-bowl.png",
+        "name": "sugar",
+        "orig": "1 tablespoon sugar"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg",
+        "name": "unsalted butter",
+        "orig": "1 cup (2 sticks) unsalted butter, slightly softened"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg",
+        "name": "unsalted butter",
+        "orig": "3 tablespoons unsalted butter, melted and cooled, plus more for griddle"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/vanilla.jpg",
+        "name": "vanilla bean",
+        "orig": "1/2 vanilla bean, split lengthwise and seeds scraped"
+      },
+      {
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/vanilla-extract.jpg",
+        "name": "vanilla extract",
+        "orig": "1 teaspoon pure vanilla extract"
+      }
+    ],
+    "name": "Silver Dollar Buttermilk-Pecan Pancakes with Bourbon Molasses Butter and Maple Syrup",
+    "summary": "Silver Dollar Buttermilk-Pecan Pancakes with Bourbon Molasses Butter and Maple Syrup is a <b>vegetarian</b> morn meal. This recipe makes 6 servings with <b>752 calories</b>, <b>8g of protein</b>, and <b>47g of fat</b> each. For <b>$2.75 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. Head to the store and pick up kosher salt, baking soda, bourbon, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>55 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 29%</b>. This score is not so awesome. Try <a href=\"https://spoonacular.com/recipes/walnut-wheatgerm-silver-dollar-pancakes-with-homemade-blackberry-syrup-478771\">Walnut-Wheatgerm Silver Dollar Pancakes with Homemade Blackberry Syrup</a>, <a href=\"https://spoonacular.com/recipes/buttermilk-pecan-pancakes-with-vanilla-bourbon-peaches-and-syrup-meatless-monday-619992\">Buttermilk Pecan Pancakes with Vanilla Bourbon Peaches and Syrup (Meatless Monday)</a>, and <a href=\"https://spoonacular.com/recipes/silver-dollar-oat-pancakes-448725\">Silver Dollar Oat Pancakes</a> for similar recipes.",
+    "tags": {
+      "cheap": false,
+      "dairyFree": false,
+      "glutenFree": false,
+      "sustainable": false,
+      "vegan": false,
+      "vegetarian": true,
+      "veryHealthy": false,
+      "veryPopular": false
+    },  
+    "wine": {}
+  }
