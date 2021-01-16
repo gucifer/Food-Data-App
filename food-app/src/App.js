@@ -98,7 +98,7 @@ class FoodDetail extends React.Component{
   render() {
     return(
       <div id="fooddetail">
-        <h2></h2>
+        <h2>{reply2.name}</h2>
         <div class="tab">
           <button class="tablinks Back" onClick={this.openTab} className="Back">Back</button>
           <button class="tablinks" onClick={this.openTab} className="Summary">Summary</button>
@@ -113,28 +113,30 @@ class FoodDetail extends React.Component{
         
         <div id="Ingredients" class={this.state.ingredients?'':'invisible'}>
           <h3>Ingredients</h3>
-          <ul>
             {
-              reply2.ingredients.map((ing) => {
-                return (<li>
-                  <strong>Name</strong> : {ing.orig}
-                  <br />
-                  <strong>Type</strong> : {ing.name}
-                  <img src={ing.image} id="ing-image"/>
-                </li>)
+              reply2.ingredients.map((ing,i) => {
+                return (
+                  <div class="ingredient-item">
+                  <div class="split left">
+                  <strong>Item {i+1}</strong> : {ing.orig}
+                  </div>
+                  <div class="split right">
+                  <img src={ing.image} id="ing-image" alt={ing.name}/>
+                  </div>
+                  </div>
+                )
               })
             }
-          </ul>
         </div>
         
         <div id="Recipe" class={this.state.recipe?'':'invisible'}>
           <h3>Recipe</h3>
-          <p>Tokyo is the capital of Japan.</p>
+          <p>Coming Soon</p>
         </div>
 
         <div id="Nutrients" class={this.state.nutrients?'':'invisible'}>
           <h3>Nutrients</h3>
-          <p>Tokyo is the capital of Japan.</p>
+          <p>Coming Soon</p>
         </div>
       </div>
     );

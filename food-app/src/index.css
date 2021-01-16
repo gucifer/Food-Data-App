@@ -144,7 +144,26 @@ input[type="text"] {
   background-color: #ccc;
 }
 
+.split {
+  z-index: 1;
+  padding-top: 20px;
+  height: 30px;
+}
 
+/* Control the left side */
+.left {
+  float:left;
+  width: 60%;
+}
+
+/* Control the right side */
+.right {
+  float: right;
+}
+
+.ingredient-item {
+  max-width: 1000px;
+}
 
 .invisible {
   display: none;
