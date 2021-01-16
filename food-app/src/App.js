@@ -106,22 +106,33 @@ class FoodDetail extends React.Component{
           <button class="tablinks" onClick={this.openTab} className="Recipe">Recipe</button>
           <button class="tablinks" onClick={this.openTab} className="Nutrients">Nutrients</button>
         </div>
-        <div id="Summary" class="tabcontent" class={this.state.summary?'':'invisible'}>
+        <div id="Summary" class={this.state.summary?'':'invisible'}>
           <h3>Summary</h3>
-          <p>London is the capital city of England.</p>
+          <p dangerouslySetInnerHTML={{__html: reply2.summary}}></p>
         </div>
         
-        <div id="Ingredients" class="tabcontent" class={this.state.ingredients?'':'invisible'}>
+        <div id="Ingredients" class={this.state.ingredients?'':'invisible'}>
           <h3>Ingredients</h3>
-          <p>Paris is the capital of France.</p>
+          <ul>
+            {
+              reply2.ingredients.map((ing) => {
+                return (<li>
+                  <strong>Name</strong> : {ing.orig}
+                  <br />
+                  <strong>Type</strong> : {ing.name}
+                  <img src={ing.image} id="ing-image"/>
+                </li>)
+              })
+            }
+          </ul>
         </div>
         
-        <div id="Recipe" class="tabcontent" class={this.state.recipe?'':'invisible'}>
+        <div id="Recipe" class={this.state.recipe?'':'invisible'}>
           <h3>Recipe</h3>
           <p>Tokyo is the capital of Japan.</p>
         </div>
 
-        <div id="Nutrients" class="tabcontent" class={this.state.nutrients?'':'invisible'}>
+        <div id="Nutrients" class={this.state.nutrients?'':'invisible'}>
           <h3>Nutrients</h3>
           <p>Tokyo is the capital of Japan.</p>
         </div>

@@ -9,6 +9,7 @@ from nutrients import get_nutrients
 app = Flask(__name__)
 conn = http.client.HTTPSConnection("api.spoonacular.com")
 
+API_KEY = "26ffc548096f45d09e84bbff675aa992"
 
 
 def dict_check(key, d):

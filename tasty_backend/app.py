@@ -7,7 +7,10 @@ from Article import Article
 app = Flask(__name__)
 
 conn = http.client.HTTPSConnection("tasty.p.rapidapi.com")
-
+headers = {
+    'x-rapidapi-key': "36f705baa8msh44335f3142fd8fdp166372jsn51f840150135",
+    'x-rapidapi-host': "tasty.p.rapidapi.com"
+}
 
 
 @app.route('/')
